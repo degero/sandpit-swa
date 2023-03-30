@@ -3,7 +3,7 @@
   "configurations": {
     "app": {
       "appLocation": ".",
-      "apiLocation": "api",
+      "apiLocation": "api\\bin\\Release\\net6.0",
       "outputLocation": "dist\\swatest",
       "appBuildCommand": "npm run build",
       "apiBuildCommand": "dotnet publish -c Release",
