@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "app": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": "dist\\swatest",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4200",
+      "appName": "swatest2",
+      "resourceGroup": "swatest2-rg"
+    }
+  }
+}
